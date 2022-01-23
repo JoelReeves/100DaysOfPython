@@ -85,7 +85,7 @@ drink_choice = ""
 drink_ingredients = {}
 
 while coffee_machine_is_on:
-    drink_choice = input("What would you like? (espresso ($1.50)/latte/cappuccino): ").lower().strip()
+    drink_choice = input("What would you like? (espresso ($1.50)/latte ($2.50)/cappuccino ($3.00)): ").lower().strip()
 
     if drink_choice == "off":
         turn_off_coffee_machine()
